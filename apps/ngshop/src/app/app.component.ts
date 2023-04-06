@@ -13,4 +13,5 @@ export class AppComponent implements OnInit {
   }
   // eslint-disable-next-line @typescript-eslint/member-ordering
   title = 'algorhythm';
+  //
 }

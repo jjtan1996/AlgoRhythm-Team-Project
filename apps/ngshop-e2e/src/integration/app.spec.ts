@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('ngshop', () => {
+describe('algorhythm', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
@@ -8,6 +8,6 @@ describe('ngshop', () => {
     cy.login('my-email@something.com', 'myPassword');
 
     // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome to ngshop!');
+    getGreeting().contains('Welcome to Algorhythm!');
   });
 });
